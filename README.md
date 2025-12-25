@@ -14,6 +14,7 @@ VitalityFlow-PaginaVendas/
 ├── servir-pagina.js       # Script para servir a página localmente
 ├── iniciar-servidor.bat   # Script para iniciar servidor no Windows
 └── README.md              # Este arquivo
+
 ```
 
 ## Como Usar
