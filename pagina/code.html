@@ -36,21 +36,11 @@
 src="https://www.facebook.com/tr?id=1421388109491995&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<!-- Tailwind CSS carregado após DOM (não bloqueia renderização) -->
-<script>
-(function() {
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadTailwind);
-  } else {
-    loadTailwind();
-  }
-  function loadTailwind() {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.tailwindcss.com?plugins=forms,typography';
-    document.head.appendChild(script);
-  }
-})();
-</script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Montserrat:wght@500;600;700;900&amp;family=Poppins:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
 <!-- Wistia carregado sob demanda (não bloqueia inicial) -->
 <script>
 (function() {
@@ -75,11 +65,6 @@ src="https://www.facebook.com/tr?id=1421388109491995&ev=PageView&noscript=1"
   });
 })();
 </script>
-<!-- Google Fonts carregadas assincronamente -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Montserrat:wght@500;600;700;900&amp;family=Poppins:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Montserrat:wght@500;600;700;900&amp;family=Poppins:wght@400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/></noscript>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-<noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/></noscript>
 <script>
       tailwind.config = {
         darkMode: "class",
